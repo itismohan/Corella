@@ -1,0 +1,101 @@
+{
+  "90210": [
+    {
+      "carrier": "Progressive",
+      "premium": 1180,
+      "coverageDetails": {
+        "liability": "100k/300k",
+        "collisionDeductible": 500,
+        "comprehensive": true
+      },
+      "status": "available"
+    },
+    {
+      "carrier": "Geico",
+      "premium": 1250,
+      "coverageDetails": {
+        "liability": "100k/300k",
+        "collisionDeductible": 500,
+        "comprehensive": true
+      },
+      "status": "available"
+    },
+    {
+      "carrier": "State Farm",
+      "premium": 1320,
+      "coverageDetails": {
+        "liability": "100k/300k",
+        "collisionDeductible": 500,
+        "comprehensive": true
+      },
+      "status": "available"
+    }
+  ],
+  "PARTIAL": [
+    {
+      "carrier": "Progressive",
+      "premium": 1180,
+      "coverageDetails": {
+        "liability": "100k/300k",
+        "collisionDeductible": 500,
+        "comprehensive": true
+      },
+      "status": "available"
+    },
+    {
+      "carrier": "Geico",
+      "premium": 1250,
+      "coverageDetails": {
+        "liability": "100k/300k",
+        "collisionDeductible": 500,
+        "comprehensive": true
+      },
+      "status": "available"
+    },
+    {
+      "carrier": "State Farm",
+      "premium": 1320,
+      "coverageDetails": {},
+      "status": "unavailable",
+      "reason": "Service area not covered"
+    },
+    {
+      "carrier": "Allstate",
+      "premium": 0,
+      "coverageDetails": {},
+      "status": "timeout"
+    }
+  ],
+  "DEFAULT": [
+    {
+      "carrier": "Progressive",
+      "premium": 1300,
+      "coverageDetails": {
+        "liability": "50k/100k",
+        "collisionDeductible": 1000,
+        "comprehensive": false
+      },
+      "status": "available"
+    },
+    {
+      "carrier": "Geico",
+      "premium": 1400,
+      "coverageDetails": {
+        "liability": "50k/100k",
+        "collisionDeductible": 1000,
+        "comprehensive": false
+      },
+      "status": "available"
+    },
+    {
+      "carrier": "State Farm",
+      "premium": 1500,
+      "coverageDetails": {
+        "liability": "100k/300k",
+        "collisionDeductible": 500,
+        "comprehensive": true
+      },
+      "status": "available"
+    }
+  ]
+}

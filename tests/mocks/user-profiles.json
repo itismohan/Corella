@@ -1,0 +1,18 @@
+{
+  "authenticated": {
+    "userId": "user123",
+    "zipCode": "90210",
+    "vehicles": [
+      {
+        "year": 2020,
+        "make": "Honda",
+        "model": "Civic"
+      }
+    ]
+  },
+  "guest": {
+    "userId": "",
+    "zipCode": "",
+    "vehicles": []
+  }
+}
