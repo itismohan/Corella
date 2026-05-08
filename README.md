@@ -1,4 +1,4 @@
-# Insurance GPT MCP Testing Framework
+# MCP Testing Framework
 
 This repo contains a Jest + TypeScript based testing framework for an **Insurance GPT** that runs over **MCP (Model Context Protocol)** and returns multi-carrier quotes directly inside ChatGPT.
 
@@ -32,7 +32,7 @@ Create a `.env` or export these when you run tests:
 
 - `MCP_BASE_URL` – base URL of your MCP server  
   Example: `http://localhost:4000`
-- `API_BASE_URL` – base URL of your Insurance GPT backend  
+- `API_BASE_URL` – base URL of your DomainGPT backend  
   Example: `http://localhost:5000`
 
 If these are not set, tests will default to `http://localhost:4000` and `http://localhost:5000`.
