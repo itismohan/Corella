@@ -1,6 +1,6 @@
 # MCP Testing Framework
 
-This repo contains a Jest + TypeScript based testing framework for an **Insurance GPT** that runs over **MCP (Model Context Protocol)** and returns multi-carrier quotes directly inside ChatGPT.
+This repo contains a Jest + TypeScript based testing framework for a **Domain GPT** that runs over **MCP (Model Context Protocol)** and returns multi-carrier quotes directly inside ChatGPT.
 
 ## What this provides
 
